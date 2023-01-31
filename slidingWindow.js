@@ -9,6 +9,8 @@
 // start with the first item in the array. Compare the profit (0) to the new
 // profit, which is the first 
 
+// 1.) Is this price cheaper than any other price I've seen before?
+// 2.) If I subtract current price by the cheapest price I've found, does this yield a greater profit than what I've seen so far?
 /**
  * @param {number[]} prices
  * @return {number}
